@@ -22,7 +22,8 @@ class ItemCard extends StatelessWidget {
             child: Container(
               padding: const EdgeInsets.all(kDefaultPaddin),
               decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 34, 34, 37),
+                  color:
+                      const Color.fromARGB(255, 34, 34, 37).withOpacity(0.35),
                   borderRadius: BorderRadius.circular(16)),
               child: Hero(
                 tag: "${planets.position}",

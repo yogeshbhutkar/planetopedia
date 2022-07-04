@@ -1,4 +1,3 @@
-import 'package:babylonjs_viewer/babylonjs_viewer.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -27,8 +26,9 @@ class BodyPage extends StatelessWidget {
             Container(
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 34, 34, 37),
-                  borderRadius: BorderRadius.circular(20)),
+                color: const Color.fromARGB(255, 34, 34, 37).withOpacity(0.35),
+                borderRadius: BorderRadius.circular(20),
+              ),
               child: Column(
                 children: [
                   const SizedBox(
@@ -61,7 +61,8 @@ class BodyPage extends StatelessWidget {
             Container(
               width: MediaQuery.of(context).size.width,
               decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 34, 34, 37),
+                  color:
+                      const Color.fromARGB(255, 34, 34, 37).withOpacity(0.35),
                   borderRadius: BorderRadius.circular(20)),
               child: Column(
                 children: [

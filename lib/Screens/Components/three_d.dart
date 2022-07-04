@@ -1,5 +1,5 @@
-import 'package:babylonjs_viewer/babylonjs_viewer.dart';
 import 'package:flutter/material.dart';
+import 'package:model_viewer_plus/model_viewer_plus.dart';
 import 'package:planetopedia/models/Planets.dart';
 
 import '../../constants.dart';
@@ -19,7 +19,12 @@ class ThreeDimensional extends StatelessWidget {
             onPressed: () => Navigator.pop(context),
             icon: const Icon(Icons.arrow_back_ios_outlined),
           )),
-      body: BabylonJSViewer(src: 'assets/images/${planets.toLowerCase()}.glb'),
+      body: ModelViewer(
+        src: 'assets/images/${planets.toLowerCase()}.glb',
+        autoPlay: true,
+        backgroundColor: kBackgroundColor,
+        autoRotate: true,
+      ),
     );
   }
 }
