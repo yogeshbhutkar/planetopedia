@@ -1,16 +1,40 @@
-# planetopedia
 
-A new Flutter project.
+# Planetopedia
 
-## Getting Started
+An app to visualize the entire solar system served right at your finger-tips.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Install Planetopedia
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Clone this repository using the following command
+
+```bash
+  git clone
+```
+
+Keeping in mind you have flutter installed, now start the build process.
+
+After the termination of build process, make the flutter app using the following code:
+
+```bash
+  flutter build apk --split-per-abi
+```
+
+You will find the app being present in the output folder inside the android directory.
+
+Install it in your device and enjoy!!!
+
+
+## Demo
+
+The below images are taken directly from the app.
+
+![alt-text](model1.jpeg)
+
+![alt-text](model2.jpeg)
+
+![alt-text](model3.jpeg)
+
+![alt-text](model4.jpeg)
