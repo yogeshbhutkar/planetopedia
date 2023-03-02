@@ -1,7 +1,7 @@
 
 # Planetopedia
 
-To directly download, visit the url : https://drive.google.com/file/d/1mGl-aSRBZIIeiYzMv33ujn6arjhqWj4c/view
+To directly download, visit the url : https://drive.google.com/file/d/1GWJLMJEBmqj2zWQwh31VwOsDVKROdMQb/view
 
 An app to visualize the entire solar system served right at your finger-tips.
 
